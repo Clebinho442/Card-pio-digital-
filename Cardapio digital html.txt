@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio - Lanchonete Carlão</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #c62828;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    .categoria {
+      margin: 2rem auto;
+      padding: 1rem;
+      max-width: 800px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #c62828;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.4rem 0;
+      border-bottom: 1px dashed #ddd;
+    }
+    li span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍔 Cardápio - Lanchonete Carlão</h1>
+  </header>
+
+  <div class="categoria">
+    <h2>Refrigerantes</h2>
+    <ul>
+      <li>Coca-Cola Lata <span>R$ 5,00</span></li>
+      <li>Coca-Cola 600 ml <span>R$ 8,00</span></li>
+      <li>Coca-Cola 1 litro <span>R$ 6,00</span></li>
+      <li>Coca-Cola 2 litros <span>R$ 13,00</span></li>
+      <li>Guaraná Kuat 2 litros <span>R$ 13,00</span></li>
+      <li>Guaraná São Carlos 2 litros <span>R$ 10,00</span></li>
+      <li>Fanta Uva 2 litros <span>R$ 13,00</span></li>
+      <li>Fanta Laranja 2 litros <span>R$ 13,00</span></li>
+      <li>Sprite 2 litros <span>R$ 13,00</span></li>
+      <li>Água sem gás <span>R$ 4,00</span></li>
+      <li>Água com gás <span>R$ 5,00</span></li>
+      <li>H2O <span>R$ 7,00</span></li>
+    </ul>
+  </div>
+
+  <div class="categoria">
+    <h2>Cachorros-Quentes</h2>
+    <ul>
+      <li>Simples <span>R$ 15,00</span></li>
+      <li>Duplo <span>R$ 18,00</span></li>
+      <li>Triplo <span>R$ 20,00</span></li>
+      <li>Alface <span>R$ 20,00</span></li>
+      <li>Milho <span>R$ 21,00</span></li>
+      <li>Egg <span>R$ 21,00</span></li>
+      <li>Catupiry <span>R$ 26,00</span></li>
+      <li>Azeitona <span>R$ 25,00</span></li>
+      <li>Cheddar <span>R$ 25,00</span></li>
+      <li>Tudo <span>R$ 26,00</span></li>
+      <li>Presunto e Mussarela <span>R$ 27,00</span></li>
+      <li>Pizza <span>R$ 25,00</span></li>
+      <li>Hamburguer <span>R$ 27,00</span></li>
+      <li>Bacon <span>R$ 27,00</span></li>
+      <li>Calabresa <span>R$ 25,00</span></li>
+      <li>Palmito <span>R$ 27,00</span></li>
+      <li>Frango <span>R$ 26,00</span></li>
+      <li>Filé <span>R$ 27,00</span></li>
+      <li>Lombo <span>R$ 26,00</span></li>
+      <li>Frango Catupiry <span>R$ 29,00</span></li>
+      <li>Frango Bacon Catupiry <span>R$ 32,00</span></li>
+      <li>Frango Bacon Provolone <span>R$ 32,00</span></li>
+      <li>Frango Bacon Calabresa <span>R$ 30,00</span></li>
+    </ul>
+  </div>
+
+  <footer style="text-align:center; padding:1rem; color:#666;">
+    © 2025 Lanchonete Carlão - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
